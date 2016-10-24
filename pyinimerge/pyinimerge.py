@@ -87,6 +87,7 @@ class IniConfigMerge(object):
     def get_all(self, field):
         """
         iterator gets list of configs by field
+        @param field
         """
 
         for cfg in self._configs:
@@ -147,6 +148,7 @@ class IniConfigMerge(object):
         the following formats are acceptable:
         - default.ini & 00_default.ini are considered the same
         - <int>_<name>.ini
+        @param filename
         """
         fparts = os.path.basename(filename).split('_')
         if 'default.ini' in filename:
