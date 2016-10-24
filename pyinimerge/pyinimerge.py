@@ -56,14 +56,14 @@ class IniConfigMerge(object):
     def first(self, field=None):
         """
         get the first config file object
-        @param field
+        :param field
         """
         return self.get(0, field)
 
     def last(self, field=None):
         """
         get the last config file object
-        @param field
+        :param field
         """
         return self.get(-1, field)
 
@@ -73,8 +73,8 @@ class IniConfigMerge(object):
         # set _merged as your go
         # on merge current overwrites pervious
         # output
-        @param index
-        @param field
+        :param index
+        :param field
         """
 
         try:
@@ -87,7 +87,7 @@ class IniConfigMerge(object):
     def get_all(self, field):
         """
         iterator gets list of configs by field
-        @param field
+        :param field
         """
 
         for cfg in self._configs:
@@ -113,7 +113,7 @@ class IniConfigMerge(object):
     def append(self, filename):
         """
         append_ini - append ini configuration descriptor
-        @param filename
+        :param filename
         """
         self._configs.append(self.set_attr(filename, self.load(filename)))
         self.merge()
@@ -122,9 +122,9 @@ class IniConfigMerge(object):
     def set_attr(self, filename, config_obj):
         """
         config_def - define the body of the config file
-        @param self
-        @param filename
-        @param config_obj
+        :param self
+        :param filename
+        :param config_obj
 
         """
         body = dict()
@@ -148,7 +148,7 @@ class IniConfigMerge(object):
         the following formats are acceptable:
         - default.ini & 00_default.ini are considered the same
         - <int>_<name>.ini
-        @param filename
+        :param filename
         """
         fparts = os.path.basename(filename).split('_')
         if 'default.ini' in filename:
@@ -162,8 +162,8 @@ class IniConfigMerge(object):
     def write(self, filename):
         """
         write
-        @param  self
-        @param  filename
+        :param  self
+        :param  filename
         invoke ConfigParser.write
         """
         self.merge() 
