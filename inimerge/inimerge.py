@@ -19,6 +19,10 @@ class IniConfigMerge(object):
         """
         self._configs = []
 
+    def __len__(self):
+        return len(self._configs)
+
+
     def __dict__(self):
         self.merge()
         c = {}
@@ -33,6 +37,10 @@ class IniConfigMerge(object):
         config = ConfigParser.RawConfigParser()
         config.read(filename)
         return config
+    
+    def clear(self):
+        self._configs = []
+
 
     def default(self):     
         """
