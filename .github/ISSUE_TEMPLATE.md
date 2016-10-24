@@ -1,4 +1,4 @@
-* inimerge version:
+* pyinimerge version:
 * Python version:
 * Operating System:
 

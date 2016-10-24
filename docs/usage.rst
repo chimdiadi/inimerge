@@ -2,6 +2,6 @@
 Usage
 =====
 
-To use inimerge in a project::
+To use pyinimerge in a project::
 
-    import inimerge
+    import pyinimerge

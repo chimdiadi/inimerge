@@ -5,13 +5,13 @@
 test_inimerge
 ----------------------------------
 
-Tests for `inimerge` module.
+Tests for `pyinimerge` module.
 """
 
 import pytest
 
 
-from inimerge import inimerge
+from pyinimerge import inimerge
 
 
 @pytest.fixture

@@ -8,13 +8,13 @@ Installation
 Stable release
 --------------
 
-To install inimerge, run this command in your terminal:
+To install pyinimerge, run this command in your terminal:
 
 .. code-block:: console
 
-    $ pip install inimerge
+    $ pip install pyinimerge
 
-This is the preferred method to install inimerge, as it will always install the most recent stable release. 
+This is the preferred method to install pyinimerge, as it will always install the most recent stable release. 
 
 If you don't have `pip`_ installed, this `Python installation guide`_ can guide
 you through the process.
@@ -26,19 +26,19 @@ you through the process.
 From sources
 ------------
 
-The sources for inimerge can be downloaded from the `Github repo`_.
+The sources for pyinimerge can be downloaded from the `Github repo`_.
 
 You can either clone the public repository:
 
 .. code-block:: console
 
-    $ git clone git://github.com/chimdiadi/inimerge
+    $ git clone git://github.com/chimdiadi/pyinimerge
 
 Or download the `tarball`_:
 
 .. code-block:: console
 
-    $ curl  -OL https://github.com/chimdiadi/inimerge/tarball/master
+    $ curl  -OL https://github.com/chimdiadi/pyinimerge/tarball/master
 
 Once you have a copy of the source, you can install it with:
 
@@ -47,5 +47,5 @@ Once you have a copy of the source, you can install it with:
     $ python setup.py install
 
 
-.. _Github repo: https://github.com/chimdiadi/inimerge
-.. _tarball: https://github.com/chimdiadi/inimerge/tarball/master
+.. _Github repo: https://github.com/chimdiadi/pyinimerge
+.. _tarball: https://github.com/chimdiadi/pyinimerge/tarball/master

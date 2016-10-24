@@ -2,7 +2,7 @@
 GNU GENERAL PUBLIC LICENSE
                       Version 3, 29 June 2007
 
-    inimerge takes multiple ini files and merges them into a single output file, object and dict
+    pyinimerge takes multiple ini files and merges them into a single output file, object and dict
     Copyright (C) 2016  Chimdi Azubuike
 
     This program is free software: you can redistribute it and/or modify

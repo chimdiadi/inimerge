@@ -28,5 +28,5 @@ deploy:
     secure: PLEASE_REPLACE_ME
   on:
     tags: true
-    repo: chimdiadi/inimerge
+    repo: chimdiadi/pyinimerge
     condition: $TOXENV == py27
