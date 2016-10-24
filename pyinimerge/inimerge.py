@@ -167,17 +167,3 @@ class IniConfigMerge(object):
         self.merge() 
         with open(filename, 'w') as fp:
             self.default().write(fp)
-
-
-if __name__ == '__main__':
-    c = IniConfigMerge() 
-    c.append('/home/chimdi/Project/test/00_default.ini')
-    c.append('/home/chimdi/Project/test/default.ini')
-    c.append('/home/chimdi/Project/test/chimdi.ini')
-    c.append('/home/chimdi/Project/test/100_story.ini')
-    for v in c.get_all('order'):
-        print("order %s" % v)
-
-    c.write('/home/chimdi/Project/test/output.ini')
-    print(c.__dict__())
-

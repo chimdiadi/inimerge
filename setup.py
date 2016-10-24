@@ -18,23 +18,23 @@ test_requirements = [
 ]
 
 setup(
-    name='inimerge',
+    name='pyinimerge',
     version='0.1.0',
-    description="inimerge takes multiple ini files and merges them into a single output file, object and dict",
+    description="pyinimerge takes multiple ini files and merges them into a single output file, object and dict",
     long_description=readme + '\n\n' + history,
     author="Chimdi Azubuike",
     author_email='me@chimdi.com',
-    url='https://github.com/chimdiadi/inimerge',
+    url='https://github.com/chimdiadi/pyinimerge',
     packages=[
-        'inimerge',
+        'pyinimerge',
     ],
-    package_dir={'inimerge':
-                 'inimerge'},
+    package_dir={'pyinimerge':
+                 'pyinimerge'},
     include_package_data=True,
     install_requires=requirements,
     license="GNU General Public License v3",
     zip_safe=False,
-    keywords='inimerge',
+    keywords='pyinimerge ParseConfig',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',

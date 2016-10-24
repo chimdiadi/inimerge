@@ -1,28 +1,28 @@
 ===============================
-inimerge
+pyinimerge
 ===============================
 
 
-.. image:: https://img.shields.io/pypi/v/inimerge.svg
-        :target: https://pypi.python.org/pypi/inimerge
+.. image:: https://img.shields.io/pypi/v/pyinimerge.svg
+        :target: https://pypi.python.org/pypi/pyinimerge
 
-.. image:: https://img.shields.io/travis/chimdiadi/inimerge.svg
-        :target: https://travis-ci.org/chimdiadi/inimerge
+.. image:: https://img.shields.io/travis/chimdiadi/pyinimerge.svg
+        :target: https://travis-ci.org/chimdiadi/pyinimerge
 
-.. image:: https://readthedocs.org/projects/inimerge/badge/?version=latest
-        :target: https://inimerge.readthedocs.io/en/latest/?badge=latest
+.. image:: https://readthedocs.org/projects/pyinimerge/badge/?version=latest
+        :target: https://pyinimerge.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
-.. image:: https://pyup.io/repos/github/chimdiadi/inimerge/shield.svg
-     :target: https://pyup.io/repos/github/chimdiadi/inimerge/
+.. image:: https://pyup.io/repos/github/chimdiadi/pyinimerge/shield.svg
+     :target: https://pyup.io/repos/github/chimdiadi/pyinimerge/
      :alt: Updates
 
 
-inimerge takes multiple ini files and merges them into a single output file, object and dict
+pyinimerge takes multiple ini files and merges them into a single output file, object and dict
 
 
 * Free software: GNU General Public License v3
-* Documentation: https://inimerge.readthedocs.io.
+* Documentation: https://pyinimerge.readthedocs.io.
 
 
 Features
